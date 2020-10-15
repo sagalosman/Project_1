@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 84px 0px rgba(63, 19, 19, 0.87);
+}
+
+.cell {
+    background-color: #222831;
+    width: 10%;
+    height: 10%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.apple {
+    background-image: url('https://www.flaticon.com/svg/static/icons/svg/1086/1086072.svg');
+    background-size: contain;
+}
+
+.snake {
+    background-image: url('https://www.flaticon.com/svg/static/icons/svg/148/148841.svg');
+}
+
+.body {
+    background-image: url('https://www.flaticon.com/svg/static/icons/svg/148/148841.svg');
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.title {
+    margin-bottom: 15px;
+}
+
+#gameBoard,
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.playBtn {
+    background-color: #71c9ce;
+    font-size: 30px;
+    border-radius: 155px solid yellow;
+    color: white;
+}
+
+.score {
+    color: white;
+}
+
+img {
+    height: 100px;
+}
