@@ -158,7 +158,12 @@ let direction = 'right'
 let points = 0
 let earth
 
+
+const audioPlayer = document.querySelector('audio')
+
 score = 0
+audioPlayer.src = './moon.mp3'
+audioPlayer.play()
 
 for (let i = 0; i < width ** 2; i++) {
     const cell = document.createElement('div')
@@ -167,6 +172,8 @@ for (let i = 0; i < width ** 2; i++) {
     cells.push(cell)
 
 }
+
+  
 play.addEventListener('click', () => {
     star.forEach((part) => {
             cells[part].classList.add('star')
