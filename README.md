@@ -1,1 +1,6 @@
-# Project_1
+
+General Assembly - Software Engineering Immersive
+
+StarLight ⭐️
+
+
