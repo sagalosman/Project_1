@@ -1,6 +1,6 @@
 # StarLight ⭐️ | Overview
 
-Just weeks into the course at Genreal Assembly Software Engineering Immersive i was able to create a game using my knowledge with what I learnt during the course. This was my first project that contains HTML, CSS and JavaScript. The project was completed on my own in one week.
+Just weeks into the course at General Assembly Software Engineering Immersive I was able to create a game using my knowledge with what I learnt during the course. This was my first project that contains HTML, CSS and JavaScript. The project was completed on my own in one week.
 
 You can play the game via GitHub pages right here ----> (https://sagalosman.github.io/Project_1/).
 
@@ -30,9 +30,9 @@ Technologies Used
 
 # Approach
 
-There was more than five game idea to choose from and went for Snake. I decided to change it and made the popular game my own. I change the apple to an image of earth and for the snake and its body was changed to stars.
+There was more than five game idea to choose from and went for Snake. I decided to change it and made the popular game my own. I change the apple to an image of the earth and for the snake and its body was changed to stars.
 
-I planned out and wrote down the rules of the game to make sure I aleast had A working game. I had to figure out how the star moves, how the player controls it, how the earth appears on the screen once the player presses the play button and how the star develops when the food(earth) is consumed, and how the game can end, such as by crashing into a wall. 
+I planned out and wrote down the rules of the game to make sure I at least had A working game. I had to figure out how the star moves, how the player controls it, how the earth appears on the screen once the player presses the play button and how the star develops when the food(earth) is consumed, and how the game can end, such as by crashing into a wall.
 
 I First I looked at how each of these variables could be coded, as well as how to code the overall game grid. Making the grid of the game was a success because this was my second time around building a game on a grid base. Before I started writing the actual code, I was happy I spent the time planning out everything to preparing the features and imagining what the code would look like.
 
