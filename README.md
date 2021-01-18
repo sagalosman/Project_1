@@ -36,10 +36,11 @@ I planned out and wrote down the rules of the game to make sure I at least had A
 
 I First I looked at how each of these variables could be coded, as well as how to code the overall game grid. Making the grid of the game was a success because this was my second time around building a game on a grid base. Before I started writing the actual code, I was happy I spent the time planning out everything to preparing the features and imagining what the code would look like.
 
+# Wins 
+I manage to get all the basics of the game in just under a week. The player can only use the arrow key to play this game.
 
-
-# Lessons Learned
-It took me a long time to figure out a working code for this part and to make sure the computer can identify whether the starHead touches the wall or touches the earth because both of these should have different outcomes.
+# Challenges
+It took me a long time to figure out a working code for this part and to make sure the computer can identify whether the starHead touches the wall or touches the earth because both of these should have different outcomes. I also ran out of time creating a fuction where the starHead can speed up everytime it touches an object. 
 
 ![](func.png)
 
